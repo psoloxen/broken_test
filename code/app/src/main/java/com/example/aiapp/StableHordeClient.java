@@ -48,7 +48,7 @@ public class StableHordeClient {
                 URL url = new URL("https://stablehorde.net/api/v2/generate/async");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
-                conn.setRequestProperty("apikey", "xxxxxxx);
+                conn.setRequestProperty("apikey", "xxxxxxx");
                 conn.setRequestProperty("Client-Agent", "xxxxxxx:0.1 (agentxd: xxxxx)");
                 conn.setRequestProperty("Content-Type", "application/json");
                 conn.setDoOutput(true);
